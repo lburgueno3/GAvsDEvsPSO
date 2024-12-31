@@ -1,0 +1,7 @@
+# Genetic Algorithm vs Differential Evolution vs Particle Swarm Optimization
+ This work analyzes the performance of Genetic Algorithms (GA), Differential Evolution (DE), and Particle Swarm Optimization (PSO) on constrained and unconstrained optimization problems. For  constrained problems, GAs with a dynamic penalty function and DE  with stochastic ranking (SR) were implemented and compared. For PSO base code was provided by the professor with slight modifications, so code is not included in this repository.
+
+ ## Instructions
+ To run the part corresponding to part 1 GA vs DE, run the main file. It will run all G functions and create a text file "detailed_results.txt" with details of the results, the statistical comparison will be the last output in the terminal. Examples of the detailed results using penalty 2 and penalty 1000 are already in the folder.
+
+ To run statistical comparison between GA, DE and PSO run the file "gavsdevspso.py" located in the "GA DE" folder. It will execute GA and DE on the layeb problems and use the results already obtained from PSO. Details of GA and DE will once again be in "detailed_results.txt" and the statistical comparison will be the last output in terminal. An example output using the layeb problems is already in the folder. It will also create convergence plots of GA and DE for problem Layeb05. Examples of these plots are already in the folder.
